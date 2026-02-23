@@ -16,14 +16,14 @@ if ($idioma_actual === 'en') {
             "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
             "link_live" => "#"
         ],
-        [
-            "title" => "Analytics Dashboard",
-            "desc" => "An administrative control panel that visualizes key server data using interactive charts.",
-            "long_desc" => "This project consists of a backend that processes and exposes data through a REST API. The frontend consumes this API and uses the Chart.js library to render bar, pie, and line charts, showing metrics such as CPU usage, network traffic, and user registrations in real-time.",
-            "tech" => "PHP, Chart.js, API REST",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/UpTask_MVC",
-            "link_live" => "#"
+[
+            "title" => "DevWebCamp",
+            "desc" => "Full-Stack platform for conference and event management, built with a custom PHP MVC framework and MySQL.",
+            "long_desc" => "A complete web application developed from scratch using a custom Object-Oriented PHP 8 MVC framework. It allows users to register with hashed passwords, recover accounts, purchase tickets via integrated payment gateways, and build itineraries with real-time capacity validation. It features a session-protected admin dashboard to manage CRUD operations for speakers and events, optimized with native database pagination.",
+            "tech" => "PHP 8, MySQL, MVC, JavaScript (ES6+), Fetch API, SASS, Gulp",
+            "img" => "../assets/img/DevWebCamp.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
+            "link_live" => "https://devwebcamp.devledesmabertalot.com/"
         ],
         [
             "title" => "Custom Backend Blog",
@@ -67,13 +67,13 @@ if ($idioma_actual === 'en') {
             "link_live" => "#"
         ],
         [
-            "title" => "Dashboard de Analíticas",
-            "desc" => "Un panel de control administrativo que visualiza datos clave del servidor utilizando gráficos interactivos.",
-            "long_desc" => "Este proyecto consiste en un backend que procesa y expone datos a través de una API REST. El frontend consume esta API y utiliza la librería Chart.js para renderizar gráficos de barras, circulares y de líneas, mostrando métricas como uso de CPU, tráfico de red y registros de usuarios en tiempo real.",
-            "tech" => "PHP, Chart.js, API REST",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/UpTask_MVC",
-            "link_live" => "#"
+            "title" => "DevWebCamp",
+            "desc" => "Plataforma Full-Stack para la gestión de conferencias y eventos, construida con un framework MVC propio en PHP y MySQL.",
+            "long_desc" => "Aplicación web completa desarrollada desde cero construyendo un Framework MVC propio en PHP 8 aplicando POO. Permite a los usuarios registrarse con contraseñas hasheadas, recuperar accesos, comprar boletos integrando pasarelas de pago y armar itinerarios con validación de cupos en tiempo real. Cuenta con un panel de administración protegido por sesiones para gestionar operaciones CRUD de ponentes y eventos, optimizado con paginación nativa desde la base de datos.",
+            "tech" => "PHP 8, MySQL, MVC, JavaScript (ES6+), Fetch API, SASS, Gulp",
+            "img" => "../assets/img/DevWebCamp.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
+            "link_live" => "https://devwebcamp.devledesmabertalot.com/"
         ],
         [
             "title" => "Blog con Backend Propio",
