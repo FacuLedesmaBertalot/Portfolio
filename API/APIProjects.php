@@ -16,7 +16,7 @@ if ($idioma_actual === 'en') {
             "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
             "link_live" => "#"
         ],
-[
+        [
             "title" => "DevWebCamp",
             "desc" => "Full-Stack platform for conference and event management, built with a custom PHP MVC framework and MySQL.",
             "long_desc" => "A complete web application developed from scratch using a custom Object-Oriented PHP 8 MVC framework. It allows users to register with hashed passwords, recover accounts, purchase tickets via integrated payment gateways, and build itineraries with real-time capacity validation. It features a session-protected admin dashboard to manage CRUD operations for speakers and events, optimized with native database pagination.",
@@ -26,13 +26,13 @@ if ($idioma_actual === 'en') {
             "link_live" => "https://devwebcamp.devledesmabertalot.com/"
         ],
         [
-            "title" => "Custom Backend Blog",
-            "desc" => "A simple yet powerful blog system with post management and a lightweight SQLite database.",
-            "long_desc" => "Development of a blog backend that allows creating, reading, updating, and deleting (CRUD) articles. Pure PHP was used for server logic and SQLite as the database for its simplicity and portability. The frontend is built with TailwindCSS for a fast and modern design.",
-            "tech" => "PHP, SQLite, TailwindCSS",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/directorioPaginaProgramacionEstatica",
-            "link_live" => "#"
+            "title" => "UpTask - Project Manager",
+            "desc" => "Advanced task and project management platform built with MVC architecture and automated deployment.",
+            "long_desc" => "Full Stack application for project management. It features a custom MVC architecture, robust security with hashed passwords, account verification via email (SMTP), and MySQL database integration. The frontend workflow was optimized using SASS, Gulp, and Webpack for professional-grade styling and performance.",
+            "tech" => "PHP (MVC), MySQL, SASS, JavaScript, Gulp, Webpack",
+            "img" => "../assets/img/upTask.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/UpTask_MVC",
+            "link_live" => "https://uptask.devledesmabertalot.com"
         ],
         [
             "title" => "Salon Appointment System",
@@ -76,13 +76,13 @@ if ($idioma_actual === 'en') {
             "link_live" => "https://devwebcamp.devledesmabertalot.com/"
         ],
         [
-            "title" => "Blog con Backend Propio",
-            "desc" => "Un sistema de blog simple pero potente, con gestión de posts y una base de datos ligera SQLite.",
-            "long_desc" => "Desarrollo de un backend para un blog que permite crear, leer, actualizar y eliminar (CRUD) artículos. Se utilizó PHP puro para la lógica del servidor y SQLite como base de datos por su simplicidad y portabilidad. El frontend está maquetado con TailwindCSS para un diseño rápido y moderno.",
-            "tech" => "PHP, SQLite, TailwindCSS",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/directorioPaginaProgramacionEstatica",
-            "link_live" => "#"
+            "title" => "UpTask - Administrador de Proyectos",
+            "desc" => "Plataforma avanzada de gestión de tareas y proyectos con arquitectura MVC y despliegue automatizado.",
+            "long_desc" => "Desarrollo de una aplicación Full Stack para la gestión de proyectos. Implementa una arquitectura MVC personalizada, seguridad con contraseñas hasheadas, validación de cuentas vía email (SMTP) y una base de datos robusta en MySQL. El diseño se gestionó con SASS y Gulp para un flujo de trabajo profesional.",
+            "tech" => "PHP (MVC), MySQL, SASS, JavaScript, Gulp, Webpack",
+            "img" => "../assets/img/upTask.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/UpTask_MVC",
+            "link_live" => "https://uptask.devledesmabertalot.com"
         ],
         [
             "title" => "Sistema de Citas para Peluquería",
