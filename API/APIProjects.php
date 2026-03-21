@@ -35,13 +35,13 @@ if ($idioma_actual === 'en') {
             "link_live" => "https://uptask.devledesmabertalot.com"
         ],
         [
-            "title" => "Salon Appointment System",
-            "desc" => "A functional web application to optimize appointment scheduling, allowing clients to register and book appointments intuitively.",
-            "long_desc" => "<strong>BarberShop App</strong> is a complete solution to modernize appointment management in hair salons. The platform features a secure authentication system for clients and administrators. Clients can view services, select an available time on a dynamic calendar, and confirm their appointment. The admin panel allows managing all appointments, services, and schedules. The frontend is fully responsive, ensuring an optimal user experience.",
-            "tech" => "PHP, MySQL, JavaScript, SASS, Composer, NPM",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/DirectorioAppSalon",
-            "link_live" => "#"
+            "title" => "Loan Calculator",
+            "desc" => "A modern and functional web application built with React and Vite, designed to calculate loan installments in real-time with an intuitive interface.",
+            "long_desc" => "Loan Calculator is an interactive tool designed to provide a seamless and dynamic loan calculation experience. The application allows users to select loan amounts and terms through intuitive controls, displaying payment breakdowns and total costs instantly. It features a fully responsive designbuilt with Tailwind CSS, ensuring an optimal user experience across all devices. The project highlights efficient state management and React effects to deliver precise, real-time calculations.",
+            "tech" => "React, Vite, Tailwind CSS, JavaScript, Node.js, NPM",
+            "img" => "../assets/img/cotizadorPrestamos.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/CotizadorPrestamos",
+            "link_live" => "https://fnlbcotizadorprestamos.netlify.app/"
         ],
         [
             "title" => "Regal Realty - Real Estate Platform",
@@ -49,7 +49,7 @@ if ($idioma_actual === 'en') {
             "tech" => "HTML5, CSS3, JavaScript (Vanilla)",
             "img" => "../assets/img/RegalRealty.png",
             "link_github" => "https://github.com/FacuLedesmaBertalot/directorioPaginaProgramacionEstatica",
-            "link_live" => "https://regalrealty.devledesmabertalot.com/"
+            "link_live" => "https://fnlbcotizadorprestamos.netlify.app/"
         ]
     ];
 } else {
@@ -85,13 +85,13 @@ if ($idioma_actual === 'en') {
             "link_live" => "https://uptask.devledesmabertalot.com"
         ],
         [
-            "title" => "Sistema de Citas para Peluquería",
-            "desc" => "Una aplicación web funcional para optimizar la gestión de turnos, permitiendo a los clientes registrarse y agendar citas de forma intuitiva.",
-            "long_desc" => "<strong>BarberShop App</strong> es una solución completa para modernizar la gestión de citas en peluquerías. La plataforma cuenta con un sistema de autenticación seguro para clientes y administradores. Los clientes pueden ver los servicios, seleccionar un horario disponible en un calendario dinámico y confirmar su cita. El panel de administración permite gestionar todos los turnos, servicios y horarios. El frontend es totalmente responsivo, asegurando una experiencia de usuario óptima.",
-            "tech" => "PHP, MySQL, JavaScript, SASS, Composer, NPM",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/DirectorioAppSalon",
-            "link_live" => "#"
+            "title" => "Cotizador de Préstamos",
+            "desc" => "Una aplicación web moderna y funcional desarrollada con React y Vite, diseñada para calcular cuotas de préstamos en tiempo real con una interfaz intuitiva.",
+            "long_desc" => "Cotizador de Préstamoses una herramienta interactiva diseñada para facilitar el cálculo de préstamos de forma dinámica. La aplicación permite a los usuarios seleccionar el monto y el plazo mediante controles intuitivos, visualizando el desglose de pagos y el total a pagar de manera instantánea. Implementa un diseño totalmente responsivocon Tailwind CSS, garantizando una experiencia fluida en cualquier dispositivo. Se destaca por el manejo eficiente del estado y efectos en React para ofrecer cálculos precisos en tiempo real.",
+            "tech" => "React, Vite, Tailwind CSS, JavaScript, Node.js, NPM",
+            "img" => "../assets/img/cotizadorPrestamos.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/CotizadorPrestamos",
+            "link_live" => "https://fnlbcotizadorprestamos.netlify.app/"
         ],
         [
             "title" => "Regal Realty - Plataforma Inmobiliaria",
