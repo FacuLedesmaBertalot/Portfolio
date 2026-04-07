@@ -104,26 +104,102 @@ require_once __DIR__ . "/../API/APIProjects.php";
 
               <div class="mb-3">
                 <h6 class="theme-text mb-2 fw-bold"><i class="bi bi-database"></i> <?= $lang['stack_backend'] ?></h6>
-                <span class="badge border border-secondary theme-text p-2 mb-1 fs-6">PHP</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1 fs-6">Node.js</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1 fs-6">MySQL</span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">PHP</span>
+                  <img src="../assets/logos/PHP.svg" alt="PHP" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Node.js</span>
+                  <img src="../assets/logos/Node.js.svg" alt="Node.js" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Express.js</span>
+                  <img src="../assets/logos/Express.svg" alt="Express" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">MySQL</span>
+                  <img src="../assets/logos/MySQL.svg" alt="MySQL" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">MongoDB</span>
+                  <img src="../assets/logos/MongoDB.svg" alt="MongoDB" class="tech-logo-animated">
+                </span>
               </div>
 
               <div class="mb-3">
                 <h6 class="theme-text mb-2 fw-bold"><i class="bi bi-browser-chrome"></i> <?= $lang['stack_frontend'] ?></h6>
-                <span class="badge border border-secondary theme-text p-2 mb-1">HTML</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">CSS</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">JavaScript</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">SASS</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">Bootstrap</span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">HTML</span>
+                  <img src="../assets/logos/HTML5.svg" alt="HTML" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">CSS</span>
+                  <img src="../assets/logos/CSS3.svg" alt="CSS" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">JavaScript</span>
+                  <img src="../assets/logos/JavaScript.svg" alt="JavaScript" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">SASS</span>
+                  <img src="../assets/logos/Sass.svg" alt="SASS" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Bootstrap</span>
+                  <img src="../assets/logos/Bootstrap.svg" alt="Bootstrap" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Tailwind CSS</span>
+                  <img src="../assets/logos/TailwindCSS.svg" alt="Tailwind" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">React</span>
+                  <img src="../assets/logos/React.svg" alt="React" class="tech-logo-animated">
+                </span>
+
               </div>
 
               <div>
                 <h6 class="theme-text mb-2 fw-bold"><i class="bi bi-tools"></i> <?= $lang['stack_tools'] ?></h6>
-                <span class="badge border border-secondary theme-text p-2 mb-1">Composer</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">NPM</span>
-                <span class="badge border border-secondary theme-text p-2 mb-1">Git / GitHub</span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Postman</span>
+                  <img src="../assets/logos/Postman.svg" alt="Postman" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Composer</span>
+                  <img src="../assets/logos/Composer.svg" alt="Composer" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">NPM</span>
+                  <img src="../assets/logos/NPM.svg" alt="NPM" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">Git</span>
+                  <img src="../assets/logos/Git.svg" alt="Git" class="tech-logo-animated">
+                </span>
+
+                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
+                  <span class="tech-name">GitHub</span>
+                  <img src="../assets/logos/GitHub.svg" alt="GitHub" class="tech-logo-animated">
+                </span>
               </div>
+
             </div>
           </div>
         </div>
