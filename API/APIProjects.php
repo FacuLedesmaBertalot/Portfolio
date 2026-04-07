@@ -7,14 +7,14 @@ if ($idioma_actual === 'en') {
     // ARRAY DE PROYECTOS EN INGLÉS
     // ==========================================
     $projects = [
-        [
-            "title" => "Barbershop Appointment System",
-            "desc" => "A functional web application to optimize appointment scheduling, allowing clients to register and book appointments intuitively.",
-            "long_desc" => "<strong>BarberShop App</strong> is a complete solution to modernize appointment management in barbershops. The platform features a secure authentication system for clients and administrators. Clients can view services, select an available time on a dynamic calendar, and confirm their appointment. The admin panel allows managing all appointments, services, and schedules. The frontend is fully responsive, ensuring an optimal user experience.",
-            "tech" => "PHP, MySQL, JavaScript, SASS, Composer, NPM",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
-            "link_live" => "#"
+[
+            "title" => "Veterinary Patient Manager",
+            "desc" => "Web application focused on efficiently managing the registration and tracking of veterinary patients and their owners.",
+            "long_desc" => "<strong>APV (Veterinary Patient Manager)</strong> is a platform designed to streamline daily administration in veterinary clinics. It features an authentication-protected dashboard, allowing administrators to register, edit, and delete detailed information about pets, symptoms, and owners. The interface stands out for being clean, fast, and fully responsive, ensuring optimal usability across all devices.",
+            "tech" => "Node.js, Express, React, Vite, Tailwind CSS",
+            "img" => "../assets/img/pacientesVeterinaria.png", 
+            "link_github" => "https://github.com/FacuLedesmaBertalot/PacientesVeterinaria",
+            "link_live" => "https://pacientesveterinaria.devledesmabertalot.com/"
         ],
         [
             "title" => "DevWebCamp",
@@ -57,14 +57,14 @@ if ($idioma_actual === 'en') {
     // ARRAY DE PROYECTOS EN ESPAÑOL
     // ==========================================
     $projects = [
-        [
-            "title" => "Sistema de Citas para Peluquería",
-            "desc" => "Una aplicación web funcional para optimizar la gestión de turnos, permitiendo a los clientes registrarse y agendar citas de forma intuitiva.",
-            "long_desc" => "<strong>BarberShop App</strong> es una solución completa para modernizar la gestión de citas en peluquerías. La plataforma cuenta con un sistema de autenticación seguro para clientes y administradores. Los clientes pueden ver los servicios, seleccionar un horario disponible en un calendario dinámico y confirmar su cita. El panel de administración permite gestionar todos los turnos, servicios y horarios. El frontend es totalmente responsivo, asegurando una experiencia de usuario óptima.",
-            "tech" => "PHP, MySQL, JavaScript, SASS, Composer, NPM",
-            "img" => "../assets/img/fondo.jpeg",
-            "link_github" => "https://github.com/FacuLedesmaBertalot/DevWebCamp",
-            "link_live" => "#"
+[
+            "title" => "Administrador de Pacientes de Veterinaria",
+            "desc" => "Aplicación web enfocada en gestionar el registro y seguimiento de pacientes veterinarios y sus dueños de forma ágil.",
+            "long_desc" => "<strong>APV (Administrador de Pacientes de Veterinaria)</strong> es una plataforma diseñada para facilitar la administración diaria en clínicas veterinarias. Cuenta con un panel protegido por autenticación, permitiendo a los administradores registrar, editar y eliminar datos detallados de mascotas, síntomas y propietarios. La interfaz destaca por ser limpia, rápida y completamente responsiva, asegurando un uso óptimo desde cualquier dispositivo.",
+            "tech" => "Node.js, Express, React, Vite, Tailwind CSS",
+            "img" => "../assets/img/pacientesVeterinaria.png", 
+            "link_github" => "https://github.com/FacuLedesmaBertalot/PacientesVeterinaria",
+            "link_live" => "https://pacientesveterinaria.devledesmabertalot.com/"
         ],
         [
             "title" => "DevWebCamp",
