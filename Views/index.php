@@ -27,7 +27,7 @@ require_once __DIR__ . "/../API/APIProjects.php";
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-  <link rel="stylesheet" href="/Views/css/styles.css?v=2.0">
+  <link rel="stylesheet" href="/Views/css/styles.css?v=2.1">
 </head>
 
 <body class="data-bs-theme">
