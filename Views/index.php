@@ -180,16 +180,6 @@ require_once __DIR__ . "/../API/APIProjects.php";
                 </span>
 
                 <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
-                  <span class="tech-name">Composer</span>
-                  <img src="../assets/logos/Composer.svg" alt="Composer" class="tech-logo-animated">
-                </span>
-
-                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
-                  <span class="tech-name">NPM</span>
-                  <img src="../assets/logos/NPM.svg" alt="NPM" class="tech-logo-animated">
-                </span>
-
-                <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
                   <span class="tech-name">Git</span>
                   <img src="../assets/logos/Git.svg" alt="Git" class="tech-logo-animated">
                 </span>
