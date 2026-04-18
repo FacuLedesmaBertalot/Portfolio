@@ -19,10 +19,10 @@ return [
     'stack_tools' => 'Herramientas',
     
     'learning_title' => 'Aprendiendo',
-    'learning_laravel' => 'Framework de PHP para robustecer el Backend',
+    'learning_typescript' => 'Lenguaje fuertemente tipado para potenciar el desarrollo en JavaScript',
+    'learning_nestjs'   => 'Framework de Node.js para robustecer el Backend',
     'learning_docker' => 'Contenedores para entornos de desarrollo y despliegues',
     'learning_react' => 'Librería de JavaScript para interfaces dinámicas',
-    'learning_tailwind' => 'Framework CSS Utility-first',
     'learning_python' => 'Ampliando lógica y automatización',
     
     // Otras Habilidades
