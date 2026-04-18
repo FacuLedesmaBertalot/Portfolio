@@ -19,10 +19,10 @@ return [
     'stack_tools' => 'Tools',
     
     'learning_title' => 'Currently Learning',
-    'learning_laravel' => 'PHP framework to build robust backend systems',
+    'learning_typescript' => 'Strongly typed language to enhance JavaScript development',
+    'learning_nestjs'   => 'Node.js framework to build robust backend systems',
     'learning_docker' => 'Containers for development environments and deployments',
     'learning_react' => 'JavaScript library for dynamic user interfaces',
-    'learning_tailwind' => 'Utility-first CSS framework',
     'learning_python' => 'Expanding logic and automation skills',
     
     // Other Skills
