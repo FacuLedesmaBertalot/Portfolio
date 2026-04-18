@@ -203,8 +203,8 @@ require_once __DIR__ . "/../API/APIProjects.php";
                 <li class="list-group-item bg-transparent theme-text d-flex align-items-center border-bottom-0 pb-3">
                   <i class="bi bi-check-circle text-secondary me-3 fs-5"></i>
                   <div>
-                    <strong>Laravel</strong><br>
-                    <small class="text-muted"><?= $lang['learning_laravel'] ?></small>
+                    <strong>Typescript</strong><br>
+                    <small class="text-muted"><?= $lang['learning_typescript'] ?></small>
                   </div>
                 </li>
                 <li class="list-group-item bg-transparent theme-text d-flex align-items-center border-bottom-0 pb-3">
@@ -224,8 +224,8 @@ require_once __DIR__ . "/../API/APIProjects.php";
                 <li class="list-group-item bg-transparent theme-text d-flex align-items-center border-bottom-0 pb-3">
                   <i class="bi bi-check-circle text-secondary me-3 fs-5"></i>
                   <div>
-                    <strong>Tailwind CSS</strong><br>
-                    <small class="text-muted"><?= $lang['learning_tailwind'] ?></small>
+                    <strong>Nest.js</strong><br>
+                    <small class="text-muted"><?= $lang['learning_nestjs'] ?></small>
                   </div>
                 </li>
                 <li class="list-group-item bg-transparent theme-text d-flex align-items-center border-bottom-0">
