@@ -3,11 +3,18 @@
 $idioma_actual = $_SESSION['lang'] ?? 'es';
 
 if ($idioma_actual === 'en') {
-    // ==========================================
     // ARRAY DE PROYECTOS EN INGLÉS
-    // ==========================================
     $projects = [
-[
+        [
+            "title" => "Vitae Salud",
+            "desc" => "Comprehensive Full-Stack MERN system for medical clinic management, featuring secure authentication and a cloud-based database.",
+            "long_desc" => "Full-Stack web platform developed with Node.js, Express, MongoDB, and React. It implements a robust authentication system using JSON Web Tokens (JWT), password hashing, and a complete account confirmation cycle via unique email tokens. It features a custom RESTful API, protected by strict CORS policies to ensure secure cross-origin communication. Successfully deployed in production on Linux servers, handling environment variables and data persistence with MongoDB Atlas.",
+            "tech" => "Node.js, Express, MongoDB, React, JWT, REST API, Git",
+            "img" => "../assets/img/VitaeSalud.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/Consultorio",
+            "link_live" => "https://vitaesalud.devledesmabertalot.com/"
+        ],
+        [
             "title" => "Veterinary Patient Manager",
             "desc" => "Web application focused on efficiently managing the registration and tracking of veterinary patients and their owners.",
             "long_desc" => "<strong>APV (Veterinary Patient Manager)</strong> is a platform designed to streamline daily administration in veterinary clinics. It features an authentication-protected dashboard, allowing administrators to register, edit, and delete detailed information about pets, symptoms, and owners. The interface stands out for being clean, fast, and fully responsive, ensuring optimal usability across all devices.",
@@ -53,11 +60,18 @@ if ($idioma_actual === 'en') {
         ]
     ];
 } else {
-    // ==========================================
     // ARRAY DE PROYECTOS EN ESPAÑOL
-    // ==========================================
     $projects = [
 [
+            "title" => "Vitae Salud",
+            "desc" => "Sistema integral MERN Full-Stack para la gestión de consultorios médicos, con autenticación segura y base de datos en la nube.",
+            "long_desc" => "Plataforma web Full-Stack desarrollada con Node.js, Express, MongoDB y React. Implementa un sistema de autenticación robusto con JSON Web Tokens (JWT), hasheo de contraseñas y un ciclo completo de confirmación de cuentas mediante tokens únicos. Cuenta con una API RESTful propia, protegida con políticas de CORS estrictas para permitir la comunicación segura entre dominios. Desplegada exitosamente en producción sobre servidores Linux, manejando separación de entornos y persistencia de datos en MongoDB Atlas.",
+            "tech" => "Node.js, Express, MongoDB, React, JWT, REST API, Git",
+            "img" => "../assets/img/VitaeSalud.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/Consultorio",
+            "link_live" => "https://vitaesalud.devledesmabertalot.com/"
+        ],
+        [
             "title" => "Administrador de Pacientes de Veterinaria",
             "desc" => "Aplicación web enfocada en gestionar el registro y seguimiento de pacientes veterinarios y sus dueños de forma ágil.",
             "long_desc" => "<strong>APV (Administrador de Pacientes de Veterinaria)</strong> es una plataforma diseñada para facilitar la administración diaria en clínicas veterinarias. Cuenta con un panel protegido por autenticación, permitiendo a los administradores registrar, editar y eliminar datos detallados de mascotas, síntomas y propietarios. La interfaz destaca por ser limpia, rápida y completamente responsiva, asegurando un uso óptimo desde cualquier dispositivo.",
