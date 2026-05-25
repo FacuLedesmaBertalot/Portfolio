@@ -150,8 +150,8 @@ require_once __DIR__ . "/../API/APIProjects.php";
                 </span>
 
                 <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
-                  <span class="tech-name">SASS</span>
-                  <img src="../assets/logos/Sass.svg" alt="SASS" class="tech-logo-animated">
+                  <span class="tech-name">SCSS</span>
+                  <img src="../assets/logos/Scss.svg" alt="SCSS" class="tech-logo-animated">
                 </span>
 
                 <span class="badge border border-secondary theme-text mb-1 fs-6 tech-badge-animate">
