@@ -249,6 +249,12 @@ require_once __DIR__ . "/../API/APIProjects.php";
             <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_2'] ?></span>
             <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_3'] ?></span>
             <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_4'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_5'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_6'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_7'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_8'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_9'] ?></span>
+            <span class="badge border border-secondary text-secondary p-2 px-3 fs-6 rounded-pill"><?= $lang['skill_10'] ?></span>
           </div>
         </div>
       </div>

@@ -31,6 +31,12 @@ return [
     'skill_2' => 'Agile Methodologies',
     'skill_3' => 'Database Design',
     'skill_4' => 'English B1/B2',
+    'skill_5' => 'Collaborative Work (Version Control)',
+    'skill_6' => 'REST API Design and Consumption',
+    'skill_7' => 'Requirements Analysis and Documentation',
+    'skill_8' => 'Problem Solving',
+    'skill_9' => 'Adaptability and Continuous Learning',
+    'skill_10' => 'Self-Management',
     
     // Projects
     'projects_title' => 'Featured Projects',
