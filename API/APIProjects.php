@@ -6,6 +6,15 @@ if ($idioma_actual === 'en') {
     // ARRAY DE PROYECTOS EN INGLÉS
     $projects = [
         [
+            "title" => "DevTree",
+            "desc" => "Full-Stack LinkTree clone to centralize, manage, and share social media links on a single public profile page.",
+            "long_desc" => "Full-Stack web platform built with a client-server architecture using React, TypeScript, and Tailwind CSS on the frontend, alongside Node.js, Express, and MongoDB on the backend. It implements secure user authentication using JWT and efficient data synchronization with React Query. Features an interactive dashboard and cloud storage for profile images (avatars) managed through Cloudinary.",
+            "tech" => "React, TypeScript, Node.js, Express, MongoDB, Tailwind CSS, React Query, Cloudinary, JWT",
+            "img" => "../assets/img/DevTree.png",
+            "link_github" => "https://github.com/FacuLedesmaBertalot/DevTree",
+            "link_live" => "https://fanelebe-devtree.netlify.app/"
+        ],
+        [
             "title" => "Vitae Salud",
             "desc" => "Comprehensive Full-Stack MERN system for medical clinic management, featuring secure authentication and a cloud-based database.",
             "long_desc" => "Full-Stack web platform developed with Node.js, Express, MongoDB, and React. It implements a robust authentication system using JSON Web Tokens (JWT), password hashing, and a complete account confirmation cycle via unique email tokens. It features a custom RESTful API, protected by strict CORS policies to ensure secure cross-origin communication. Successfully deployed in production on Linux servers, handling environment variables and data persistence with MongoDB Atlas.",
@@ -62,7 +71,17 @@ if ($idioma_actual === 'en') {
 } else {
     // ARRAY DE PROYECTOS EN ESPAÑOL
     $projects = [
-[
+        [
+    "title" => "DevTree",
+    "desc" => "Clon Full-Stack de LinkTree para centralizar, gestionar y compartir enlaces de redes sociales en una única página de perfil público.",
+    "long_desc" => "Plataforma web Full-Stack construida con arquitectura cliente-servidor utilizando React, TypeScript y Tailwind CSS en el frontend, junto con Node.js, Express y MongoDB en el backend. Implementa autenticación segura de usuarios mediante JWT y sincronización eficiente de datos con React Query. Cuenta con un panel de administración interactivo y almacenamiento en la nube de imágenes de perfil (avatares) gestionado a través de Cloudinary.",
+    "tech" => "React, TypeScript, Node.js, Express, MongoDB, Tailwind CSS, React Query, Cloudinary, JWT",
+    "img" => "../assets/img/DevTree.png",
+    "link_github" => "https://github.com/FacuLedesmaBertalot/DevTree",
+    "link_live" => "https://fanelebe-devtree.netlify.app/"
+    ],
+
+        [
             "title" => "Vitae Salud",
             "desc" => "Sistema integral MERN Full-Stack para la gestión de consultorios médicos, con autenticación segura y base de datos en la nube.",
             "long_desc" => "Plataforma web Full-Stack desarrollada con Node.js, Express, MongoDB y React. Implementa un sistema de autenticación robusto con JSON Web Tokens (JWT), hasheo de contraseñas y un ciclo completo de confirmación de cuentas mediante tokens únicos. Cuenta con una API RESTful propia, protegida con políticas de CORS estrictas para permitir la comunicación segura entre dominios. Desplegada exitosamente en producción sobre servidores Linux, manejando separación de entornos y persistencia de datos en MongoDB Atlas.",
