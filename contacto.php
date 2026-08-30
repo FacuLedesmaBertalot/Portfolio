@@ -10,14 +10,31 @@ use Clases\Email;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
-    // Limpiamos los datos por seguridad
+    if (!empty($_POST['telefono_falso'])) {
+        header("Location: Views/index.php?status=success#contact");
+        exit;
+    }
+
     $nombre = htmlspecialchars($_POST['nombre']);
     $email_reclutador = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $mensaje = htmlspecialchars($_POST['mensaje']);
 
+    if (preg_match('/https?:\/\//i', $mensaje) || preg_match('/www\./i', $mensaje)) {
+        header("Location: Views/index.php?status=success#contact");
+        exit;
+    }
+
+    $palabras_prohibidas = ['promo code', 'crypto', 'bitcoin', 'investment', 'casino', 'SEO'];
+    foreach ($palabras_prohibidas as $palabra) {
+        if (stripos($mensaje, $palabra) !== false) {
+            header("Location: Views/index.php?status=success#contact");
+            exit;
+        }
+    }
+
+    // Preparamos y enviamos el correo
     $email = new Email($email_reclutador, $nombre, $mensaje);
     
-    // Enviamos el correo
     $resultado = $email->enviarMensaje();
 
     if ($resultado) {
